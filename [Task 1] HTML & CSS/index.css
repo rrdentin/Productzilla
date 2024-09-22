@@ -1,3 +1,12 @@
+:root{
+    --black: #333;
+    --blue: #4183c4;
+    --bg: #f9f9f9;
+    --border: #ddd;
+    --white: #fff;
+    --blue2: #327fc7;
+}
+
 html,
 body,
 div,
@@ -136,7 +145,7 @@ ol li {
 body {
     box-sizing: border-box;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
+    color: var(--black);
     line-height: 1.4;
     font-size: 14px
 }
@@ -154,7 +163,7 @@ body {
     display: inline-block;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    color: #4183c4;
+    color: var(--blue);
     line-height: 100px
 }
 
@@ -172,17 +181,17 @@ strong {
 }
 
 a {
-    color: #4183C4;
+    color: var(--blue);
     text-decoration: none
 }
 
 a:hover {
-    color: #156cc2
+    color: #156cc2;
 }
 
 p code {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
     border-radius: 4px;
     padding: 2px 5px;
     font-family: Consolas, "Liberation Mono", Courier, monospace
@@ -242,7 +251,7 @@ textarea {
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: #333;
+    background-color: var(--black);
     color: #bbb;
     padding: 5px 10px;
     border-radius: 4px;
@@ -256,7 +265,7 @@ textarea {
 }
 
 .help-link:hover {
-    color: #fff
+    color: var(--white)
 }
 
 h1 {
@@ -266,11 +275,11 @@ h1 {
     line-height: 60px;
     text-align: center;
     max-width: 910px;
-    color: #333
+    color: black;
 }
 
 #hero-spot h1 {
-    color: #fff;
+    color: var(--white);
     -webkit-backface-visibility: hidden;
     max-width: 830px;
     margin-top: 50px
@@ -383,10 +392,10 @@ h1 {
 
 .tabs a {
     color: #323232;
-    background-color: #fff;
+    background-color: var(--white);
     padding: 10px 20px;
     display: inline-block;
-    border: 1px solid #dddddd;
+    border: 1px solid var(--border);
     position: relative;
     line-height: 1em;
     -webkit-transition: all 0.2s ease-in-out 0s;
@@ -400,16 +409,16 @@ h1 {
 }
 
 .tabs a:hover {
-    color: #327fc7;
-    border-color: #327fc7;
+    color: var(--blue2);
+    border-color: var(--blue2);
     z-index: 10
 }
 
 .tabs a.selected {
     z-index: 20;
-    color: #fff;
-    background-color: #327fc7;
-    border-color: #327fc7;
+    color: var(--white);
+    background-color: var(--blue2);
+    border-color: var(--blue2);
     outline: none
 }
 
@@ -425,11 +434,11 @@ h1 {
 
 .tutorial-list>li {
     position: relative;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 0 0 70px 0px;
     padding: 40px 0 60px;
     font-size: 18px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 5px;
     text-align: center;
     z-index: 1;
@@ -449,12 +458,12 @@ h1 {
 }
 
 #create-repo-step {
-    background: #fff url(/assets/user-repo@2x.png) right 0 no-repeat;
+    background: var(--white) url(/assets/user-repo@2x.png) right 0 no-repeat;
     background-size: 446px 328px
 }
 
 #setup-in-desktop {
-    background: #fff url(/assets/setup-in-desktop@2x.png) no-repeat right 0;
+    background: var(--white) url(/assets/setup-in-desktop@2x.png) no-repeat right 0;
     background-size: 443px 303px
 }
 
@@ -503,7 +512,7 @@ h1 {
 }
 
 .windows-download {
-    color: #fff;
+    color: var(--white);
     display: inline-block;
     font-size: 18px;
     margin: 0 0 50px;
@@ -516,7 +525,7 @@ h1 {
 }
 
 .windows-download:hover {
-    color: #fff;
+    color: var(--white);
     background-color: #62b30e
 }
 
@@ -544,7 +553,7 @@ h1 {
     font-size: 17px;
     -webkit-backface-visibility: hidden;
     font-weight: normal;
-    color: #fff
+    color: var(--white)
 }
 
 .mac-download::before {
@@ -563,7 +572,7 @@ h1 {
 }
 
 .mac-download:hover {
-    color: #fff;
+    color: var(--white);
     background-image: -moz-linear-gradient(#56bdf9 0%, #358af0 100%);
     background-image: -webkit-linear-gradient(#56bdf9 0%, #358af0 100%);
     border-radius: 4px
@@ -603,11 +612,11 @@ h1 {
     width: 58px;
     height: 58px;
     line-height: 58px;
-    background-color: #327fc7;
+    background-color: var(--blue2);
     border-radius: 200px;
     font-size: 30px;
     font-weight: 300;
-    color: #fff;
+    color: var(--white);
     position: absolute;
     left: -15px;
     top: -15px;
