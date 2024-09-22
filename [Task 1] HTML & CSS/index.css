@@ -158,11 +158,6 @@ body {
     line-height: 100px
 }
 
-/* .wrapper {
-    position: relative;
-    width: 980px;
-    margin: 0 auto
-} */
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -884,14 +879,14 @@ footer .right {
     h2 {
         font-size: 18px;
 
-    .tabs a {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
+        .tabs a {
+            padding: 8px 15px;
+            font-size: 14px;
+        }
 
-    .terminal {
-        width: 100%;
-        font-size: 16px;
+        .terminal {
+            width: 100%;
+            font-size: 16px;
+        }
     }
-}
 }
