@@ -1,4 +1,4 @@
-:root{
+:root {
     --black: #333;
     --blue: #4183c4;
     --bg: #f9f9f9;
@@ -7,78 +7,15 @@
     --blue2: #327fc7;
 }
 
-html,
-body,
-div,
-span,
-object,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+@font-face {
+    font-family: 'octicons';
+    src: url("/assets/octicons/octicons.eot");
+    src: url("/assets/octicons/octicons.eot#iefix") format("embedded-opentype"), url("/assets/octicons/octicons.woff") format("woff"), url("/assets/octicons/octicons.ttf") format("truetype"), url("/assets/octicons/octicons.svg#octicons") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -101,7 +38,6 @@ section {
     display: flex;
     flex-direction: column;
 }
-
 
 body {
     line-height: 1
@@ -818,14 +754,6 @@ footer .right {
     margin-left: 20px
 }
 
-@font-face {
-    font-family: 'octicons';
-    src: url("/assets/octicons/octicons.eot");
-    src: url("/assets/octicons/octicons.eot#iefix") format("embedded-opentype"), url("/assets/octicons/octicons.woff") format("woff"), url("/assets/octicons/octicons.ttf") format("truetype"), url("/assets/octicons/octicons.svg#octicons") format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
 .octicon-book:before {
     content: '\f007'
 }
@@ -887,15 +815,15 @@ footer .right {
 @media screen and (max-width: 600px) {
     h2 {
         font-size: 18px;
+    }
 
-        .tabs a {
-            padding: 8px 15px;
-            font-size: 14px;
-        }
+    .tabs a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
 
-        .terminal {
-            width: 100%;
-            font-size: 16px;
-        }
+    .terminal {
+        width: 100%;
+        font-size: 16px;
     }
 }
