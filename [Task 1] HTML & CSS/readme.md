@@ -18,8 +18,8 @@ atau SCSS.
 ### Rules
 
 * Desain Responsif: Halaman harus terlihat baik di desktop dan mobile.
-* HTML Semantik: Gunakan tag HTML yang sesuai (seperti <header>,
-<nav>, <main>, <section>, dll.).
+* HTML Semantik: Gunakan tag HTML yang sesuai (seperti `<header>`,
+`<nav>`, `<main>`, `<section>`, dll.).
 * CSS Flexbox/Grid: Gunakan Flexbox atau Grid CSS untuk tata letak.
 * SCSS (Opsional): Gunakan SCSS untuk styling, membuat komponen
 dan variabel yang dapat digunakan kembali.
@@ -28,12 +28,10 @@ dengan situs GitHub Pages.
 
 ### Preview program
 #### Desktop
-![Desktop](\md\desktop.gif "Desktop")
+![Desktop](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
 
 #### Mobile
-![Mobile](\md\mobile.gif "Mobile")
-
-
+![Mobile](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/mobile.gif)
 
 ## Authors 
 [@rrdentin](https://daintycube.my.id)
