@@ -13,11 +13,11 @@ Simple overview of use/purpose.
 Tugas ini bertujuan untuk melatih keterampilan dalam problem solving dan kreativitas.
 
 ### Preview program
-#### Desktop
-![Desktop](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
+#### Task 1
+![Task 1](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%202%5D%20Typescript%20Fundamental/assets/1.png)
 
-#### Mobile
-![Mobile](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/mobile.gif)
+#### Task 2
+![Task 2](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%202%5D%20Typescript%20Fundamental/assets/2.png)
 
 ## Authors 
 [@rrdentin](https://daintycube.my.id)
