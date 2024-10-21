@@ -1,4 +1,4 @@
-# [Task 1] HTML & CSS
+# [Task 2] Typescript Fundamental
 
 Simple overview of use/purpose.
 
