@@ -11,23 +11,23 @@ Buatlah aplikasi NodeJS yang melakukan enkripsi dan dekripsi file menggunakan mo
 
 ### Goals
 Tugas ini bertujuan untuk melatih keterampilan dalam penggunaan Node.js dan TypeScript, serta menerapkan konsep asynchronous, modul, crypto, file system, dan error handling dengan baik.
-### Preview program
+### Preview Program Output
 #### Encryption
 * Error
-![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
-![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
+![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/1.png)
 
 * Success
-![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
-![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
+![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/2.png)
+![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/3.png)
 
 
 #### Decryption
 * Error
-![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
-![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
+![Error](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/4.png)
 
 * Success
-![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
-![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%201%5D%20HTML%20%26%20CSS/md/desktop.gif)
+![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/5.png)
+![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/6.png)
+![Success](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/7.png)
+
 
