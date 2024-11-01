@@ -19,10 +19,10 @@ Aplikasi ini harus memiliki fitur seperti berikut:
 ### Preview Program Output
 #### SWAGGER
 
-![Swagger](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/4.png)
+![Swagger](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%204%5D%20Express%20JS%2C%20MongoDB%2C%20Swagger/assets/swagger.png)
 
 #### Authorization (/login)
-![Authorization](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/4.png)
+![Authorization](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%204%5D%20Express%20JS%2C%20MongoDB%2C%20Swagger/assets/login.png)
 
 #### Books (/books & /books/:id)
-![Authorization](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%203%5D%20NodeJS%2C%20Async%20Function%2C%20ES%20Module%2C%20Error%20Handling/assets/4.png)
+![Books](https://github.com/rrdentin/Productzilla/blob/main/%5BTask%204%5D%20Express%20JS%2C%20MongoDB%2C%20Swagger/assets/books.png)
