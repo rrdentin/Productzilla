@@ -39,7 +39,7 @@ export const updateBook = async (req: Request, res: Response) => {
     const { id } = req.params;
     const { title, author, genre, code, description, year } = req.body;
 
-    const bookExist = await Book.findOne({ code });
+    const bookExist = await Book.findOne({ code, _id: { $ne: id }});
     if (bookExist) {
       return res.status(400).json({ message: "Kode buku sudah ada" });
     }
